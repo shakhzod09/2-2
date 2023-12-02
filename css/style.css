@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar .contanier {
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(54, 77, 185);
+  background: radial-gradient(
+    circle,
+    rgba(54, 77, 185, 1) 25%,
+    rgba(63, 94, 251, 1) 35%,
+    rgba(50, 70, 158, 1) 53%,
+    rgba(46, 62, 129, 1) 61%,
+    rgba(34, 39, 40, 1) 100%
+  );
+}
+
+.navbar .logo {
+  color: black;
+}
+
+.navbar .nav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 50%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  padding: 10px 60px;
+  display: flex;
+}
+
+.nav li a {
+  color: rgba(0, 0, 0, 1);
+  padding: 20px;
+  font-weight: 700;
+  display: flex;
+}
+
+.home-section .box-1 {
+  margin: 0;
+  background-image: url(../images/45265866-old-and-vintage-paper-page-texture.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.home-section .hero-top {
+  padding: 10px 50px;
+  color: #fff;
+  background-color: rgba(8, 8, 8, 0.534);
+}
+
+.home-section .el-1 {
+  padding-top: 100px;
+}
+
+.home-section h1 {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 2.3rem;
+}
+
+.home-section .el-2 p {
+  background-color: hotpink;
+  color: black;
+  padding: 0px;
+  font-size: 2rem;
+}
+
+.home-section .el-3 {
+  background-color: hwb(hue rgb(56, 12, 250) black);
+  color: blue;
+  padding: 0px;
+  font-size: 1.5rem;
+}
+
+.home-section .box-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+footer {
+  background-color: blue;
+  color: black;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+}
+
+.about {
+  color: #fff;
+  padding: 40px;
+}
+
+.about-2 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 0px 40px;
+}
+
+.about-0 {
+  margin: 0;
+  background-image: url(../images/night.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+
+.about-0 button a {
+  padding: 20px;
+  margin: 10px 20px;
+  font-size: 2rem;
+}
